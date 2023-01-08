@@ -1,0 +1,496 @@
+@media screen and (max-width:650px){
+    .upload-intro {
+        width: 35rem;
+    }
+    
+    .upload-intro h1 {
+        color: rgba(29, 15, 74);
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1.7px;
+        justify-content: center;
+        text-align: center;
+        margin: 2rem 0rem 0rem 0rem;
+        
+    }
+    .upload-intro p {
+        color: rgba(29, 15, 74);
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1.3px;
+        text-align: center;
+        margin: 2rem 0rem 0rem 0rem;
+        padding: 0rem .5rem 0rem .5rem;
+        transition: 3s;
+    }
+    
+    .upload-image-wrapper {
+        width: 23rem;
+    }
+
+    .upload-notes {
+        width: 35rem;
+        height: 30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: auto; */
+        margin: 3rem 0rem 0rem 0rem;
+        border-radius: 20px;
+    }
+    .select-notes-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0rem 0rem 1rem 0rem;
+        cursor: pointer;
+        width: 32rem;
+        height: 12rem;
+        border-radius: 20px;
+        border: 3px dashed rgba(29, 15, 74, 1);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.584);
+        position: relative;
+    }
+    
+    .notes-upload-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin: auto; */
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    
+    
+    .upload-pyq {
+        width: 35rem;
+        height: 35rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: auto; */
+        margin: 3rem 0rem 0rem 0rem;
+        border-radius: 20px;
+    }
+    .select-pyq-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0rem 0rem 1rem 0rem;
+        cursor: pointer;
+        width: 32rem;
+        height: 12rem;
+        border-radius: 20px;
+        border: 3px dashed rgba(29, 15, 74, 1);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.584);
+        position: relative;
+    }
+    
+    .notes-pyq-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin: auto; */
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    .suggestion {
+        
+        transform: translate(44%,290%);
+        transition: 1s;
+        
+    }
+    .pyq-suggestion{
+        transform: translate(44%,330%);
+        transition: 1s;
+    }
+
+    
+}
+
+@media screen and (max-width:570px){
+    .upload-intro {
+        width: 30rem;
+    }
+    
+    .upload-intro h1 {
+        color: rgba(29, 15, 74);
+        font-size: 2.3rem;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1.4px;
+        justify-content: center;
+        text-align: center;
+        margin: 2rem 0rem 0rem 0rem;
+        
+    }
+    .upload-intro p {
+        color: rgba(29, 15, 74);
+        font-size: .95rem;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1.3px;
+        text-align: center;
+        margin: 2rem 0rem 0rem 0rem;
+        padding: 0rem .5rem 0rem .5rem;
+        transition: 3s;
+    }
+    
+    .upload-image-wrapper {
+        width: 21rem;
+    }
+
+    .upload-notes {
+        width: 30rem;
+        height: 30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: auto; */
+        margin: 3rem 0rem 0rem 0rem;
+        border-radius: 15px;
+    }
+    .select-notes-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0rem 0rem 1rem 0rem;
+        cursor: pointer;
+        width: 28rem;
+        height: 12rem;
+        border-radius: 15px;
+        border: 3px dashed rgba(29, 15, 74, 1);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.584);
+        position: relative;
+    }
+    
+    .notes-upload-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin: auto; */
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    
+    
+    .upload-pyq {
+        width: 30rem;
+        height: 35rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: auto; */
+        margin: 3rem 0rem 0rem 0rem;
+        border-radius: 15px;
+    }
+    .select-pyq-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0rem 0rem 1rem 0rem;
+        cursor: pointer;
+        width: 32rem;
+        height: 12rem;
+        border-radius: 15px;
+        border: 3px dashed rgba(29, 15, 74, 1);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.584);
+        position: relative;
+    }
+    
+    .notes-pyq-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin: auto; */
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    .suggestion {
+        
+        transform: translate(32%,288%);
+        transition: 1s;
+        
+    }
+    .pyq-suggestion{
+        transform: translate(32%,330%);
+        transition: 1s;
+    }
+    
+}
+@media screen and (max-width:498px){
+    .upload-intro {
+        width: 25rem;
+    }
+    
+    .upload-intro h1 {
+        color: rgba(29, 15, 74);
+        font-size: 2.1rem;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1.2px;
+        justify-content: center;
+        text-align: center;
+        margin: 2rem 0rem 0rem 0rem;
+        
+    }
+    .upload-intro p {
+        color: rgba(29, 15, 74);
+        font-size: .95rem;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1.3px;
+        text-align: center;
+        margin: 1.3rem 0rem 0rem 0rem;
+        padding: 0rem .5rem 0rem .5rem;
+        transition: 3s;
+    }
+    
+    .upload-image-wrapper {
+        width: 19rem;
+    }
+
+    .upload-notes {
+        width: 25rem;
+        height: 30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: auto; */
+        margin: 3rem 0rem 0rem 0rem;
+        border-radius: 10px;
+    }
+    .select-notes-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0rem 0rem 1rem 0rem;
+        cursor: pointer;
+        width: 23rem;
+        height: 12rem;
+        border-radius: 10px;
+        border: 3px dashed rgba(29, 15, 74, 1);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.584);
+        position: relative;
+    }
+    
+    .notes-upload-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin: auto; */
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    
+    
+    .upload-pyq {
+        width: 25rem;
+        height: 35rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: auto; */
+        margin: 3rem 0rem 0rem 0rem;
+        border-radius: 10px;
+    }
+    .select-pyq-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0rem 0rem 1rem 0rem;
+        cursor: pointer;
+        width: 23rem;
+        height: 12rem;
+        border-radius: 10px;
+        border: 3px dashed rgba(29, 15, 74, 1);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.584);
+        position: relative;
+    }
+    
+    .notes-pyq-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin: auto; */
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    .suggestion {
+        
+        transform: translate(18%,285%);
+        transition: 1s;
+        
+    }
+    .pyq-suggestion{
+        transform: translate(18%,330%);
+        transition: 1s;
+    }
+    
+}
+@media screen and (max-width:430px){
+    .upload-intro {
+        width: 20rem;
+    }
+    
+    .upload-intro h1 {
+        color: rgba(29, 15, 74);
+        font-size: 2rem;
+        font-weight: bold;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1.2px;
+        justify-content: center;
+        text-align: center;
+        margin: 2rem 0rem 0rem 0rem;
+        
+    }
+    .upload-intro p {
+        color: rgba(29, 15, 74);
+        font-size: .85rem;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1.3px;
+        text-align: center;
+        margin: 1.3rem 0rem 0rem 0rem;
+        padding: 0rem .5rem 0rem .5rem;
+        transition: 3s;
+    }
+    
+    .upload-image-wrapper {
+        width: 17rem;
+    }
+    .upload-notes {
+        width: 20rem;
+        height: 32rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: auto; */
+        margin: 3rem 0rem 0rem 0rem;
+        border-radius: 5px;
+    }
+    .select-notes-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0rem 0rem 1rem 0rem;
+        cursor: pointer;
+        width: 18rem;
+        height: 12rem;
+        border-radius: 10px;
+        border: 2.5px dashed rgba(29, 15, 74, 1);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.584);
+        position: relative;
+    }
+    .select-notes-container img {
+        width: 4rem;
+        margin: .7rem 0rem .5rem 0rem;
+        cursor: pointer;
+    }
+    
+    .select-notes-container p {
+        margin: 0rem 0rem .5rem 0rem;
+        font-size: .6rem;
+        font-weight: bold;
+        color: rgb(142, 131, 131);
+        cursor: pointer;
+    }
+    input[type="file"]::file-selector-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem 0rem .5rem 0rem;
+        cursor: pointer;
+    
+        font-weight: bold;
+        letter-spacing: .4px;
+        font-size: .6rem;
+    
+        width: 6rem;
+    
+        border: none;
+        padding: .5rem .5rem .5rem .5rem;
+        border-radius: 25px;
+        background-color: #ce443d;
+        color: white;
+        transition: 1s;
+    }
+    input[type="file"] {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: .7rem;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        width: 10rem;
+        /* width: 100%; */
+        margin: 0rem 0rem .5rem 4.3rem;
+        cursor: pointer;
+    }
+    
+    .notes-upload-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin: auto; */
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    
+    
+    .upload-pyq {
+        width: 20rem;
+        height: 35rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin: auto; */
+        margin: 3rem 0rem 0rem 0rem;
+        border-radius: 10px;
+    }
+    .select-pyq-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0rem 0rem 1rem 0rem;
+        cursor: pointer;
+        width: 18rem;
+        height: 12rem;
+        border-radius: 10px;
+        border: 3px dashed rgba(29, 15, 74, 1);
+        background-color: rgb(255, 255, 255);
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.584);
+        position: relative;
+    }
+    
+    .notes-pyq-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin: auto; */
+        margin: 1rem 0rem 0rem 0rem;
+    }
+    .suggestion {
+        
+        transform: translate(3%,285%);
+        transition: 1s;
+        
+    }
+    .pyq-suggestion{
+        transform: translate(3%,330%);
+        transition: 1s;
+    }
+    
+}

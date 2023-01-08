@@ -1,0 +1,563 @@
+.upload {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+.upload-intro {
+    width: 40rem;
+}
+
+.upload-intro h1 {
+    color: rgba(29, 15, 74);
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem 0rem 0rem 0rem;
+}
+
+.upload-image-wrapper {
+    width: 25rem;
+}
+
+.upload-intro p {
+    color: rgba(29, 15, 74);
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.3px;
+    text-align: center;
+    margin: 2rem 0rem 0rem 0rem;
+    transition: 3s;
+}
+
+
+
+.upload-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 16rem;
+    height: 2.9rem;
+    
+    margin: 2rem 0rem 0rem 0rem;
+    border-radius: 25px;
+    background-color: white;
+    background-color: rgb(173, 160, 160);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.307);
+}
+
+.upload-menu-notes {
+    background: rgb(182, 51, 118);
+    background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 8rem;
+    height: 2.9rem;
+    border-radius: 25px;
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+
+.upload-menu-pyq {
+    background: rgb(182, 51, 118);
+    background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+    color: white;
+    border: none;
+    width: 8rem;
+    height: 2.9rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+
+}
+
+.upload-notes {
+    width: 40rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: auto; */
+}
+
+.upload-pyq {
+    width: 40rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.upload-notes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0rem 0rem 0rem;
+    width: 40rem;
+    height: 32rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.423);
+    border-radius: 25px;
+}
+
+.notes-upload-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: auto; */
+    margin: 0rem 0rem 0rem 0rem;
+}
+.select-notes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem 0rem 1rem 0rem;
+    cursor: pointer;
+    width: 35rem;
+    height: 12rem;
+    border-radius: 25px;
+    border: 3px dashed rgba(29, 15, 74, 1);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.584);
+    position: relative;
+}
+
+.select-notes-container:hover {
+    box-shadow: 1px 1px 18px rgba(0, 0, 0, 0.74);
+}
+
+.select-notes-container img {
+    width: 4rem;
+    margin: .7rem 0rem .5rem 0rem;
+    cursor: pointer;
+}
+
+.select-notes-container p {
+    margin: 0rem 0rem .5rem 0rem;
+    font-size: .8rem;
+    font-weight: bold;
+    color: rgb(142, 131, 131);
+    cursor: pointer;
+}
+
+.select-notes-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+
+.pyq-text-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 17rem;
+    height: 2.8rem;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.158);
+    text-align: center;
+    outline: none;
+    font-size: .9rem;
+    font-weight: bold;
+    border: 3px solid rgba(29, 15, 74, 1);
+    /* border: none; */
+    margin: 1rem 0rem .2rem 0rem;
+    margin: auto;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-bottom-style: double;
+    transition: 1s;
+    /* background-color: #eee; */
+
+}
+
+.pyq-text-input:focus {
+    border: 3px solid rgba(29, 15, 74, 1);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove rgba(29, 15, 74, 1);
+    /* border-bottom-style: groove  rgba(29, 15, 74, 1); */
+}
+
+.text-underline {
+    height: .2rem;
+    width: 7rem;
+    background-color: black;
+    color: black;
+}
+
+
+
+input[type="file"] {
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    margin: 0rem 0rem .5rem 9rem;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 2rem .5rem 0rem;
+    cursor: pointer;
+
+    font-weight: bold;
+    letter-spacing: .4px;
+    font-size: .9rem;
+
+    width: 8rem;
+
+    border: none;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 25px;
+    background-color: #ce443d;
+    color: white;
+    transition: 1s;
+}
+
+.suggestion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+    position: fixed;
+    font-weight: bold;
+    font-size: .8rem;
+    height: 2.8rem;
+    width: 17rem;
+    background-color: rgb(241, 234, 234);
+    border-radius: 5px 5px 5px 5px;
+    border: 3px solid rgba(29, 15, 74, 1);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove rgba(29, 15, 74, 1);
+    cursor: pointer;
+    transform: translate(53%,310%);
+    transition: 1s;
+    
+}
+.suggestion:hover{
+    background-color: rgb(150, 149, 156);
+    color: rgb(0, 0, 0);
+}
+.note-submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 30rem;
+    width: 100%;
+    margin: auto;
+    /* transform: translate(13%,0%);
+     */
+}
+.note-circular-progress{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: auto;
+    width: 0rem;
+    height: 3rem;
+}
+.note-submit-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: .5rem 0rem .5rem 0rem ;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.note-submit button {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    width: 7rem;
+    height: 2.5rem;
+    background: rgb(182, 51, 118);
+    background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    /* position: relative; */
+    margin: 1rem 0rem 1rem 0rem;
+    
+}
+
+
+
+/* *************************************** */
+
+
+.upload-pyq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0rem 0rem 0rem;
+    width: 40rem;
+    height: 35.5rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.423);
+    border-radius: 25px;
+}
+
+.pyq-upload-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+
+.note-text-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 17rem;
+    height: 2.8rem;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.158);
+    text-align: center;
+    outline: none;
+    font-size: .9rem;
+    font-weight: bold;
+    border: 3px solid rgba(29, 15, 74, 1);
+    /* border: none; */
+    margin: 1rem 0rem .2rem 0rem;
+    margin: auto;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-bottom-style: double;
+    transition: 1s;
+    /* background-color: #eee; */
+
+}
+
+.note-text-input:focus {
+    border: 3px solid rgba(29, 15, 74, 1);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove rgba(29, 15, 74, 1);
+    /* border-bottom-style: groove  rgba(29, 15, 74, 1); */
+}
+
+.text-underline {
+    height: .2rem;
+    width: 7rem;
+    background-color: black;
+    color: black;
+}
+.pyq-select{
+    display: flex;
+    justify-content: center;
+    width: 17rem;
+    height: 2.8rem;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    outline: none;
+    font-size: .9rem;
+    font-weight: bold;
+    margin: auto;
+}
+.pyq-select:focus {
+    border: 3px solid rgba(29, 15, 74, 1);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove rgba(29, 15, 74, 1);
+    /* border-bottom-style: groove  rgba(29, 15, 74, 1); */
+}
+
+.select-pyq-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.3rem 0rem 1rem 0rem;
+    cursor: pointer;
+    width: 35rem;
+    height: 12rem;
+    border-radius: 25px;
+    border: 3px dashed rgba(29, 15, 74, 1);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.584);
+    position: relative;
+}
+
+.select-pyq-container:hover {
+    box-shadow: 1px 1px 18px rgba(0, 0, 0, 0.74);
+}
+
+.select-pyq-container img {
+    width: 4rem;
+    margin: .7rem 0rem .5rem 0rem;
+    cursor: pointer;
+}
+
+.select-pyq-container p {
+    margin: 0rem 0rem .5rem 0rem;
+    font-size: .8rem;
+    font-weight: bold;
+    color: rgb(142, 131, 131);
+    cursor: pointer;
+}
+
+.select-pyq-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+input[type="file"] {
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    margin: 0rem 0rem .5rem 9rem;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 2rem .5rem 0rem;
+    cursor: pointer;
+
+    font-weight: bold;
+    letter-spacing: .4px;
+    font-size: .9rem;
+
+    width: 8rem;
+
+    border: none;
+    padding: .5rem .5rem .5rem .5rem;
+    border-radius: 25px;
+    background-color: #ce443d;
+    color: white;
+    transition: 1s;
+}
+
+.pyq-suggestion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 10;
+    position: fixed;
+    font-weight: bold;
+    font-size: .8rem;
+    height: 2.8rem;
+    width: 17rem;
+    background-color: rgb(241, 234, 234);
+    border-radius: 5px 5px 5px 5px;
+    border: 3px solid rgba(29, 15, 74, 1);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove rgba(29, 15, 74, 1);
+    cursor: pointer;
+    transform: translate(53%,360%);
+    transition: 1s;
+    
+}
+.pyq-suggestion:hover{
+    background-color: rgb(150, 149, 156);
+    color: rgb(0, 0, 0);
+}
+.pyq-submit{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 30rem;
+    width: 100%;
+    margin: auto;
+    /* transform: translate(13%,0%);
+     */
+}
+.pyq-circular-progress{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: auto;
+    width: 0rem;
+    height: 3rem;
+}
+.pyq-submit-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: .5rem 0rem .5rem 0rem ;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.pyq-submit button {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    width: 7rem;
+    height: 2.5rem;
+    background: rgb(182, 51, 118);
+    background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    /* position: relative; */
+    margin: 1rem 0rem 1rem 0rem;
+    
+}

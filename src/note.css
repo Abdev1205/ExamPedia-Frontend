@@ -1,0 +1,308 @@
+.note{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.note-intro{
+    margin: 0rem 0rem 0rem 0rem;
+    padding: 2rem 0rem .5rem 0rem;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 1;
+    
+    position: fixed;
+    
+
+}
+.note-select select{
+    background: rgb(182, 51, 118);
+  background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+  color: white;
+  width: 8rem;
+  height: 2.9rem;
+  padding: .5rem .5rem .5rem 1.5rem;
+  outline: none;
+  cursor: pointer;
+  
+  border-radius: 25px 0px 0px 25px;
+  
+}
+.note-option{
+    background: rgba(29, 15, 74, 1);
+    color: black;
+  /* background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%); */
+  color: rgb(255, 255, 255);
+  width: 8rem;
+  position: absolute;
+  
+}
+.note-option:hover{
+    background: rgba(182, 51, 118, 1);
+}
+.note-search input{
+    width: 39rem;
+    height: 2.9rem;
+    text-align: center;
+    outline: none;
+    font-size: 1rem;
+    
+    font-weight: bold;
+    border-top:2px solid rgba(182, 51, 118, 1);
+    border-right:2px solid rgba(182, 51, 118, 1);
+    border-bottom:2px solid rgba(182, 51, 118, 1);
+    border-left:none ;
+    border-radius: 0px 25px 25px 0px;
+}
+.note-search i{
+   
+    color: rgba(29, 15, 74, 1);
+    margin: .4rem 0rem 0rem -3rem;
+    
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: .51s;
+    /* position: relative; */
+}
+.note-search i:active{
+    transform: scale(.8);
+}
+.note-search-suggestion{
+    padding: .5rem .5rem .5rem .5rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border-bottom: 1px solid black;
+    width: 100%;
+    background-color: rgb(231, 220, 220);
+    /* background: rgba(29, 15, 74, 1); */
+  /* background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%); */
+}
+.note-search-suggestion:hover{
+    /* background: rgb(182, 51, 118);
+  background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%); */
+
+  background-color: rgb(182, 51, 118);
+  background-color: rgba(29, 15, 74, 1);
+  color: white;
+  /* position: relative; */
+  
+}
+.note-sorter{
+    display: flex;
+    flex-direction: row;
+    float: right;
+    background-color: rgba(29, 15, 74, 1);
+    width: 9rem;
+    height: 2.5rem;
+    transform: translate(365%,0%);
+    
+    border-radius: 25px;
+    padding: 0rem 1rem 0rem 1rem;
+    position: absolute;
+    
+    
+}
+
+.note-sort-bar{
+    display: flex;
+    flex-direction: row;
+}
+.note-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+.note-bar .bar-1{
+    background-color: rgb(182, 51, 118);
+    width: 1.5rem;
+    height: .2rem;
+    margin-top: .3rem;
+    margin-bottom: .3rem;
+    border-radius: .75rem;
+}
+.note-bar .bar-2{
+    background-color: rgb(182, 51, 118);
+    width: 1rem;
+    height: .2rem;
+    border-radius: .75rem;
+    margin-bottom: .3rem;
+}
+.note-bar .bar-3{
+    background-color: rgb(182, 51, 118);
+    width: .6rem;
+    height: .2rem;
+    border-radius: .75rem;
+    margin-bottom: .3rem;
+}
+
+.note-sort-bar select{
+    width: 6rem;
+    cursor: pointer;
+    font-size: .8rem;
+    background-color: rgba(29, 15, 74, 1);
+    outline: none;
+    border-radius: 0px 25px 25px 0px;
+    border: none;
+    margin: 0rem 1rem 0rem 0rem;
+    color: white;
+}
+.note-sort-bar option{
+    font-size: .8rem;
+}
+.note-card-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 66rem;
+    /* align-items: center; */
+    margin: auto;
+    margin-top: 8.5rem;
+}
+.note-card{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: 1rem 1rem 1rem 1rem;
+    width: 20rem;
+    height: 14.6rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.367);
+    border-bottom: 3px solid rgba(29, 15, 74, 1);
+}
+.note-card-subject{
+    width: 100%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    background-color: rgba(29, 15, 74, 1);
+    border-radius: 15px 15px 0px 0px;
+}
+.note-card-subject h1{
+    width: 100%;
+    margin: auto;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: flex;
+    /* display: -webkit-box; */
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    /* margin: 0rem 0rem 0rem 0rem; */
+    text-align: center;
+    /* text-align: justify; */
+    font-size: .9rem;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    color: rgba(29, 15, 74, 1);
+    color: white;
+}
+.note-card .note-card-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.note-card-content-1{
+    
+    width: 12rem;
+}
+.note-card-content-1 img{
+    padding: .5rem 0rem 0rem 0rem;
+    width: 10rem;
+    pointer-events: none;
+    filter: drop-shadow(1px 5px 10px rgba(0, 0, 0, 0.771));
+}
+.note-card-content-2{
+    width: 12rem;
+    height: 10.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.note-card-content-2 h1{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+
+    color: rgba(29, 15, 74, 1);
+
+}
+.note-card-content-2 h2{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    font-size: 1rem;
+    font-weight: bold;
+    max-width: 100%;
+    
+
+    color: rgba(29, 15, 74, 1);
+    
+}
+.note-card-content-2 h3{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+
+    color: rgba(29, 15, 74, 1);
+    
+}
+.note-card-content-2 h4{
+    text-align: center;
+    font-size: .6rem;
+    font-weight: bold;
+
+    color: rgba(29, 15, 74, 1);
+    
+}
+.note-card-content a{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.note-card-content button{
+    width: 8rem;
+    height: 2.4rem;
+    border-radius: 25px;
+    background: rgb(182, 51, 118);
+  background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+  color: white;
+  border: none;
+  font-weight: 500;
+  font-size: .9rem;
+  letter-spacing: 1.5px;
+
+}
+.note-card-credit{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.note-card-credit h1{
+    font-size: .9rem;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    padding: .3rem 0rem .3rem 0rem ;
+
+}
+
+

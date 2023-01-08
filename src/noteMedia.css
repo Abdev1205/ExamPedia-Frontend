@@ -1,0 +1,378 @@
+@media screen and (max-width:1065px) {
+    .note-card-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        /* align-items: center; */
+        margin: auto;
+        margin-top: 8.5rem;
+    }
+}
+
+@media screen and (max-width:865px) {
+    .note-select select{
+        background: rgb(182, 51, 118);
+      background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+      color: white;
+      width: 5rem;
+      height: 2.9rem;
+      padding: .5rem .5rem .5rem .5rem;
+      outline: none;
+      cursor: pointer;
+      font-size: .8rem;
+      border-radius: 25px 0px 0px 25px;
+      
+    }
+    .note-option{
+        background: rgba(29, 15, 74, 1);
+        color: black;
+      /* background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%); */
+      color: rgb(255, 255, 255);
+      width: 5rem;
+      font-size: .8rem;
+      position: absolute;
+      
+    }
+    .note-search input{
+        width: 30rem;
+        height: 2.9rem;
+        text-align: center;
+        outline: none;
+        font-size: 1rem;
+        
+        font-weight: bold;
+        border-top:2px solid rgba(182, 51, 118, 1);
+        border-right:2px solid rgba(182, 51, 118, 1);
+        border-bottom:2px solid rgba(182, 51, 118, 1);
+        border-left:none ;
+        border-radius: 0px 25px 25px 0px;
+    }
+}
+@media screen and (max-width:660px) {
+    .note-select select{
+        background: rgb(182, 51, 118);
+      background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+      color: white;
+      width: 5rem;
+      height: 2.9rem;
+      padding: .5rem .5rem .5rem .5rem;
+      outline: none;
+      cursor: pointer;
+      font-size: .8rem;
+      border-radius: 25px 0px 0px 25px;
+      
+    }
+    .note-option{
+        background: rgba(29, 15, 74, 1);
+        color: black;
+      /* background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%); */
+      color: rgb(255, 255, 255);
+      width: 5rem;
+      font-size: .8rem;
+      position: absolute;
+      
+    }
+    .note-search input{
+        width: 25rem;
+        height: 2.9rem;
+        text-align: center;
+        outline: none;
+        font-size: 1rem;
+        
+        font-weight: bold;
+        border-top:2px solid rgba(182, 51, 118, 1);
+        border-right:2px solid rgba(182, 51, 118, 1);
+        border-bottom:2px solid rgba(182, 51, 118, 1);
+        border-left:none ;
+        border-radius: 0px 25px 25px 0px;
+    }
+}
+@media screen and (max-width:550px) {
+    .note-select select{
+        background: rgb(182, 51, 118);
+      background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+      color: white;
+      width: 4rem;
+      height: 2.2rem;
+      padding: .5rem .5rem .5rem .5rem;
+      outline: none;
+      cursor: pointer;
+      font-size: .7rem;
+      border-radius: 25px 0px 0px 25px;
+      
+    }
+    .note-option{
+        background: rgba(29, 15, 74, 1);
+        color: black;
+      /* background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%); */
+      color: rgb(255, 255, 255);
+      width: 4rem;
+      font-size: .7rem;
+      position: absolute;
+      
+    }
+    .note-search input{
+        width: 20rem;
+        height: 2.2rem;
+        text-align: center;
+        outline: none;
+        font-size: 1rem;
+        
+        font-weight: bold;
+        border-top:2px solid rgba(182, 51, 118, 1);
+        border-right:2px solid rgba(182, 51, 118, 1);
+        border-bottom:2px solid rgba(182, 51, 118, 1);
+        border-left:none ;
+        border-radius: 0px 25px 25px 0px;
+    }
+}
+@media screen and (max-width:470px) {
+    .note-select select{
+        background: rgb(182, 51, 118);
+      background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+      color: white;
+      width: 4rem;
+      height: 2.2rem;
+      padding: .5rem .5rem .5rem 0rem;
+      outline: none;
+      cursor: pointer;
+      font-size: .7rem;
+      border-radius: 25px 0px 0px 25px;
+      
+    }
+    .note-option{
+        background: rgba(29, 15, 74, 1);
+        color: black;
+      /* background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%); */
+      color: rgb(255, 255, 255);
+      width: 4rem;
+      font-size: .7rem;
+      position: absolute;
+      
+    }
+    .note-search input{
+        width: 15rem;
+        height: 2.2rem;
+        text-align: center;
+        outline: none;
+        font-size: .9rem;
+        
+        font-weight: bold;
+        border-top:2px solid rgba(182, 51, 118, 1);
+        border-right:2px solid rgba(182, 51, 118, 1);
+        border-bottom:2px solid rgba(182, 51, 118, 1);
+        border-left:none ;
+        border-radius: 0px 25px 25px 0px;
+    }
+    .note-search i{
+   
+        color: rgba(29, 15, 74, 1);
+        margin: .4rem 0rem 0rem -2rem;
+        
+        cursor: pointer;
+        font-size: 1.2rem;
+        transition: .51s;
+        /* position: relative; */
+    }
+}
+@media screen and (max-width:400px) {
+    .note-select select{
+        background: rgb(182, 51, 118);
+      background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+      color: white;
+      width: 3rem;
+      height: 2.2rem;
+      padding: .5rem .5rem .5rem 0rem;
+      outline: none;
+      cursor: pointer;
+      font-size: .7rem;
+      border-radius: 25px 0px 0px 25px;
+      
+    }
+    .note-option{
+        background: rgba(29, 15, 74, 1);
+        color: black;
+      /* background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%); */
+      color: rgb(255, 255, 255);
+      width: 3rem;
+      font-size: .7rem;
+      position: absolute;
+      
+    }
+    .note-search input{
+        width: 13rem;
+        height: 2.2rem;
+        text-align: center;
+        outline: none;
+        font-size: .9rem;
+        
+        font-weight: bold;
+        border-top:2px solid rgba(182, 51, 118, 1);
+        border-right:2px solid rgba(182, 51, 118, 1);
+        border-bottom:2px solid rgba(182, 51, 118, 1);
+        border-left:none ;
+        border-radius: 0px 25px 25px 0px;
+    }
+    .note-search i{
+   
+        color: rgba(29, 15, 74, 1);
+        margin: .4rem 0rem 0rem -1.5rem;
+        
+        cursor: pointer;
+        font-size: 1rem;
+        transition: .51s;
+        /* position: relative; */
+    }
+    .note-card-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        /* align-items: center; */
+        margin: auto;
+        margin-top: 5.5rem;
+    }
+    .note-card{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        margin: 1rem 1rem 1rem 1rem;
+        width: 17rem;
+        height: 13.6rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 12px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.367);
+        border-bottom: 3px solid rgba(29, 15, 74, 1);
+    }
+    .note-card-subject{
+        width: 100%;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        background-color: rgba(29, 15, 74, 1);
+        border-radius: 15px 15px 0px 0px;
+    }
+    .note-card-subject h1{
+        width: 100%;
+        margin: auto;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        display: flex;
+        /* display: -webkit-box; */
+        flex-direction: row;
+        justify-content: center;
+        /* align-items: center; */
+        /* margin: 0rem 0rem 0rem 0rem; */
+        text-align: center;
+        /* text-align: justify; */
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: 1.2px;
+        color: rgba(29, 15, 74, 1);
+        color: white;
+    }
+    .note-card .note-card-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .note-card-content-1{
+        
+        width: 8rem;
+    }
+    .note-card-content-1 img{
+        padding: .5rem 0rem 0rem 0rem;
+        width: 8rem;
+        filter: drop-shadow(1px 5px 10px rgba(0, 0, 0, 0.771));
+    }
+    .note-card-content-2{
+        width: 9rem;
+        height: 9rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .note-card-content-2 h1{
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: bold;
+    
+        color: rgba(29, 15, 74, 1);
+    
+    }
+    .note-card-content-2 h2{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        font-size: .85rem;
+        font-weight: bold;
+        max-width: 100%;
+        
+    
+        color: rgba(29, 15, 74, 1);
+        
+    }
+    .note-card-content-2 h3{
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+    
+        color: rgba(29, 15, 74, 1);
+        
+    }
+    .note-card-content-2 h4{
+        text-align: center;
+        font-size: .6rem;
+        font-weight: bold;
+    
+        color: rgba(29, 15, 74, 1);
+        
+    }
+    .note-card-content a{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .note-card-content button{
+        width: 6rem;
+        height: 2.1rem;
+        border-radius: 25px;
+        background: rgb(182, 51, 118);
+      background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+      color: white;
+      border: none;
+      font-weight: bold;
+      font-size: .8rem;
+      letter-spacing: 1.5px;
+    
+    }
+    .note-card-credit{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .note-card-credit h1{
+        font-size: .9rem;
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
+        padding: .3rem 0rem .3rem 0rem ;
+    
+    }
+}

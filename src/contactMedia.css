@@ -1,0 +1,27 @@
+@media screen and (max-width:800px) {
+    .contact {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-direction: wrap;
+        justify-content: center;
+        width: 19rem;
+        height: 39rem;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.482);
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        border-radius: 25px;
+    }
+    .contact-content-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 19rem;
+    }
+    
+    .contact-content-2 img {
+        width: 18rem;
+        border-radius: 25px 25px 0px 0px;
+    }
+}

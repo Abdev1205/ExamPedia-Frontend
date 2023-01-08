@@ -1,0 +1,569 @@
+@media screen and (max-width:1064px) {
+    .pyq-card-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        /* align-items: center; */
+        margin: auto;
+        margin-top: 8.5rem;
+    }
+    .pyq-intro{
+        margin: 0rem 0rem 0rem -5.6rem;
+        padding: 2rem 0rem .5rem 0rem;
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        z-index: 1;
+        /* align-items: center; */
+        position: absolute;
+        position: fixed;
+        
+    
+    }
+    .select select{
+        background: rgb(182, 51, 118);
+      background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+      color: white;
+      width: 5.5rem;
+      height: 2.9rem;
+      padding: .5rem .5rem .5rem .5rem;
+      outline: none;
+      cursor: pointer;
+      font-size: .8rem;
+      
+      border-radius: 25px 0px 0px 25px;
+      
+    }
+    .pyq-option{
+        background: rgba(29, 15, 74, 1);
+        color: black;
+      /* background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%); */
+      color: rgb(255, 255, 255);
+      width: 5rem;
+      position: absolute;
+      
+    }
+    .pyq-search input{
+        width: 25rem;
+        height: 2.9rem;
+        text-align: center;
+        outline: none;
+        font-size: 1rem;
+        
+        font-weight: bold;
+        border-top:2px solid rgba(182, 51, 118, 1);
+        border-right:2px solid rgba(182, 51, 118, 1);
+        border-bottom:2px solid rgba(182, 51, 118, 1);
+        border-left:none ;
+        border-radius: 0px 25px 25px 0px;
+    }
+    .pyq-search i{
+       
+        color: rgba(29, 15, 74, 1);
+        margin: .4rem 0rem 0rem -3rem;
+        
+        cursor: pointer;
+        font-size: 1.2rem;
+        transition: .51s;
+        /* position: relative; */
+    }
+    .sorter{
+        display: flex;
+        flex-direction: row;
+        float: right;
+        background-color: rgba(29, 15, 74, 1);
+        width: 8rem;
+        height: 2.5rem;
+        transform: translate(265%,0%);
+        
+        border-radius: 25px;
+        padding: 0rem 0rem 0rem 1rem;
+        position: absolute;
+        
+    }
+    .sort-bar select{
+        width: 4.8rem;
+        cursor: pointer;
+        font-size: .7rem;
+        background-color: rgba(29, 15, 74, 1);
+        outline: none;
+        border-radius: 0px 25px 25px 0px;
+        border: none;
+        margin: 0rem 0rem 0rem 0rem;
+        color: white;
+    }
+    
+
+}
+@media screen and (max-width:710px) {
+    
+    .pyq-intro{
+        margin: 0rem 0rem 0rem -1.2rem;
+        padding: 2rem 0rem .5rem 0rem;
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        z-index: 1;
+        /* align-items: center; */
+        position: absolute;
+        position: fixed;
+        
+    
+    }
+    .select select{
+        background: rgb(182, 51, 118);
+      background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+      color: white;
+      width: 5.5rem;
+      height: 2.4rem;
+      padding: .5rem .5rem .5rem .5rem;
+      outline: none;
+      cursor: pointer;
+      font-size: .8rem;
+      margin: -1.2rem 0rem 0rem 0rem;
+      border-radius: 25px 25px 25px 25px;
+      position: absolute;
+      
+    }
+    .pyq-option{
+        background: rgba(29, 15, 74, 1);
+        color: black;
+      /* background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%); */
+      color: rgb(255, 255, 255);
+      width: 5rem;
+      position: absolute;
+      
+    }
+    .pyq-search input{
+        width: 20rem;
+        height: 2.4rem;
+        text-align: center;
+        outline: none;
+        font-size: 1rem;
+        margin: 2rem 0rem 0rem 0rem;
+        font-weight: bold;
+        border-top:2px solid rgba(182, 51, 118, 1);
+        border-right:2px solid rgba(182, 51, 118, 1);
+        border-bottom:2px solid rgba(182, 51, 118, 1);
+        border-left:2px solid rgba(182, 51, 118, 1); ;
+        border-radius: 25px 25px 25px 25px;
+    }
+    .pyq-search i{
+       
+        color: rgba(29, 15, 74, 1);
+        margin: .4rem 0rem 0rem -3rem;
+        
+        cursor: pointer;
+        font-size: 1.1rem;
+        transition: .51s;
+        /* position: relative; */
+    }
+    .sorter{
+        display: flex;
+        flex-direction: row;
+        float: right;
+        background-color: rgba(29, 15, 74, 1);
+        width: 5rem;
+        height: 2.1rem;
+        transform: translate(365%,0%);
+        margin: -1.1rem 0rem 0rem -25rem;
+        border-radius: 25px;
+        padding: 0rem 0rem 0rem 1rem;
+        position: absolute;
+        
+    }
+    .bar{
+        /* display: none; */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
+    }
+    .sort-bar select{
+        width: 4.9rem;
+        cursor: pointer;
+        font-size: .7rem;
+        background-color: rgba(29, 15, 74, 1);
+        outline: none;
+        border-radius: 0px 25px 25px 0px;
+        border: none;
+        margin: 0rem 0rem 0rem 0rem;
+        color: white;
+    }
+    
+
+}
+@media screen and (max-width:570px) {
+    
+    .pyq-intro{
+        margin: 0rem 0rem 0rem -1.2rem;
+        padding: 2rem 0rem .5rem 0rem;
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        z-index: 1;
+        /* align-items: center; */
+        position: absolute;
+        position: fixed;
+        
+    
+    }
+    .select select{
+        background: rgb(182, 51, 118);
+      background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+      color: white;
+      width: 5.5rem;
+      height: 2.4rem;
+      padding: .5rem .5rem .5rem .5rem;
+      outline: none;
+      cursor: pointer;
+      font-size: .8rem;
+      margin: -1.2rem 0rem 0rem 0rem;
+      border-radius: 25px 25px 25px 25px;
+      position: absolute;
+      
+    }
+    .pyq-option{
+        background: rgba(29, 15, 74, 1);
+        color: black;
+      /* background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%); */
+      color: rgb(255, 255, 255);
+      width: 5rem;
+      position: absolute;
+      
+    }
+    .pyq-search input{
+        width: 20rem;
+        height: 2.4rem;
+        text-align: center;
+        outline: none;
+        font-size: 1rem;
+        margin: auto;
+        margin-top: 2rem;
+        
+        font-weight: bold;
+        border-top:2px solid rgba(182, 51, 118, 1);
+        border-right:2px solid rgba(182, 51, 118, 1);
+        border-bottom:2px solid rgba(182, 51, 118, 1);
+        border-left:2px solid rgba(182, 51, 118, 1); ;
+        border-radius: 25px 25px 25px 25px;
+    }
+    .pyq-search i{
+       
+        color: rgba(29, 15, 74, 1);
+        margin: .4rem 0rem 0rem -3rem;
+        
+        cursor: pointer;
+        font-size: 1.1rem;
+        transition: .51s;
+        /* position: relative; */
+    }
+    .sorter{
+        display: flex;
+        flex-direction: row;
+        float: right;
+        background-color: rgba(29, 15, 74, 1);
+        width: 5rem;
+        height: 2.1rem;
+        transform: translate(365%,0%);
+        margin: -1.1rem 0rem 0rem -25rem;
+        border-radius: 25px;
+        padding: 0rem 0rem 0rem 1rem;
+        position: absolute;
+        
+    }
+    .bar{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
+    }
+    .sort-bar select{
+        width: 4.9rem;
+        cursor: pointer;
+        font-size: .7rem;
+        background-color: rgba(29, 15, 74, 1);
+        outline: none;
+        border-radius: 25px 25px 25px 25px;
+        border: none;
+        margin: 0rem 0rem 0rem 0rem;
+        color: white;
+    }
+    .pyq-card-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        /* align-items: center; */
+        margin: auto;
+        margin-top: 7.5rem;
+    }
+    
+
+}
+@media screen and (max-width:415px) {
+    
+    .pyq-intro{
+        margin: 0rem 0rem 0rem -1.2rem;
+        padding: 2rem 0rem .5rem 0rem;
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        z-index: 1;
+        /* align-items: center; */
+        position: absolute;
+        position: fixed;
+        
+    
+    }
+    .select select{
+        background: rgb(182, 51, 118);
+      background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+      color: white;
+      width: 5.5rem;
+      height: 2.4rem;
+      padding: .5rem .5rem .5rem .5rem;
+      outline: none;
+      cursor: pointer;
+      font-size: .8rem;
+      margin: -1.2rem 0rem 0rem 0rem;
+      border-radius: 25px 25px 25px 25px;
+      position: absolute;
+      
+    }
+    .pyq-option{
+        background: rgba(29, 15, 74, 1);
+        color: black;
+      /* background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%); */
+      color: rgb(255, 255, 255);
+      width: 5rem;
+      position: absolute;
+      
+    }
+    .pyq-search input{
+        width: 17rem;
+        height: 2.4rem;
+        text-align: center;
+        outline: none;
+        font-size: 1rem;
+        margin: auto;
+        margin-top: 2rem;
+        
+        font-weight: bold;
+        border-top:2px solid rgba(182, 51, 118, 1);
+        border-right:2px solid rgba(182, 51, 118, 1);
+        border-bottom:2px solid rgba(182, 51, 118, 1);
+        border-left:2px solid rgba(182, 51, 118, 1); ;
+        border-radius: 25px 25px 25px 25px;
+    }
+    .pyq-search i{
+       
+        color: rgba(29, 15, 74, 1);
+        margin: .4rem 0rem 0rem -3rem;
+        
+        cursor: pointer;
+        font-size: 1.1rem;
+        transition: .51s;
+        /* position: relative; */
+    }
+    .sorter{
+        display: flex;
+        flex-direction: row;
+        float: right;
+        background-color: rgba(29, 15, 74, 1);
+        width: 5rem;
+        height: 2.1rem;
+        transform: translate(365%,0%);
+        margin: -1.1rem 0rem 0rem -25rem;
+        border-radius: 25px;
+        padding: 0rem 0rem 0rem 1rem;
+        position: absolute;
+        
+    }
+    .bar{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        
+    }
+    .sort-bar select{
+        width: 4rem;
+        cursor: pointer;
+        font-size: .7rem;
+        background-color: rgba(29, 15, 74, 1);
+        outline: none;
+        border-radius: 25px 25px 25px 25px;
+        border: none;
+        margin: 0rem 0rem 0rem 0rem;
+        color: white;
+    }
+    .pyq-card-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        /* align-items: center; */
+        margin: auto;
+        margin-top: 7.5rem;
+    }
+    .pyq-card{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        margin: 1rem 1rem 1rem 1rem;
+        width: 16rem;
+        height: 15rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 12px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.367);
+        border-bottom: 3px solid rgba(29, 15, 74, 1);
+    }
+    .pyq-card-subject{
+        width: 100%;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        background-color: rgba(29, 15, 74, 1);
+        border-radius: 15px 15px 0px 0px;
+    }
+    .pyq-card-subject h1{
+        width: 100%;
+        margin: auto;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        display: flex;
+        /* display: -webkit-box; */
+        flex-direction: row;
+        justify-content: center;
+        /* align-items: center; */
+        /* margin: 0rem 0rem 0rem 0rem; */
+        text-align: center;
+        /* text-align: justify; */
+        font-size: .75rem;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+        color: rgba(29, 15, 74, 1);
+        color: white;
+    }
+    .pyq-card .pyq-card-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .pyq-card-content-1{
+        
+        width: 8rem;
+    }
+    .pyq-card-content-1 img{
+        width: 8rem;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.255);
+    }
+    .pyq-card-content-2{
+        width: 8rem;
+        height: 10.1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .pyq-card-content-2 h1{
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: bold;
+    
+        color: rgba(29, 15, 74, 1);
+    
+    }
+    .pyq-card-content-2 h2{
+        width: 100%;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        font-size: .9rem;
+        font-weight: bold;
+        max-width: 100%;
+        
+    
+        color: rgba(29, 15, 74, 1);
+        
+    }
+    .pyq-card-content-2 h3{
+        text-align: center;
+        font-size: .8rem;
+        font-weight: bold;
+    
+        color: rgba(29, 15, 74, 1);
+        
+    }
+    .pyq-card-content-2 h4{
+        text-align: center;
+        font-size: .6rem;
+        font-weight: bold;
+    
+        color: rgba(29, 15, 74, 1);
+        
+    }
+    .pyq-card-content a{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .pyq-card-content button{
+        width: 6rem;
+        height: 2.3rem;
+        border-radius: 25px;
+        background: rgb(182, 51, 118);
+      background: linear-gradient(303deg, rgba(182, 51, 118, 1) 0%, rgba(29, 15, 74, 1) 44%);
+      color: white;
+      border: none;
+      font-weight: bold;
+      font-size: .7rem;
+      letter-spacing: 1.1px;
+    
+    }
+    .pyq-card-credit{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .pyq-card-credit h1{
+        font-size: .9rem;
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
+        padding: .3rem 0rem .3rem 0rem ;
+    
+    }
+    
+
+}
